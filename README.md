@@ -30,6 +30,6 @@ the working directory which contains the root of the dataset folder structure wh
 uncompressed.  That is, "UCI HAR Dataset" must be a folder in the R environment working directory.
 
 Once the analysis is run, it can be read from the resulting file with the following command:
-'''R
+'''
 read.table("analysis_out.txt",header=TRUE)
 '''
