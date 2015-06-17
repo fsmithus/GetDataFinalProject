@@ -3,7 +3,7 @@
 subject - 
 	Integer - subject identifier in the range 1:30 (a person)
 	
-activity - 
+activity - Enumerated - 
 One of the following:
 * WALKING
 * WALKING_UPSTAIRS
@@ -14,239 +14,239 @@ One of the following:
 
 The remaining variables are averages of original dataset (with same units) and are listed below.
 
-tBodyAcc-mean-X -
+tBodyAcc-mean-X - Numeric - 
 	Time domain, mean of mean body acceleration in X direction
 	
-tBodyAcc-mean-Y - 
+tBodyAcc-mean-Y - Numeric - 
 	Time domain, mean of mean body acceleration in Y direction
 	
-tBodyAcc-mean-Z - 
+tBodyAcc-mean-Z - Numeric - 
 	Time domain, mean of mean body acceleration in Z direction
 	
-tBodyAcc-std-X - 
+tBodyAcc-std-X - Numeric - 
 	Time domain, mean of standard deviation of body acceleration in X direction
 	
-tBodyAcc-std-Y - 
+tBodyAcc-std-Y - Numeric - 
 	Time domain, mean of standard deviation of body acceleration in Y direction
 	
-tBodyAcc-std-Z - 
+tBodyAcc-std-Z - Numeric - 
 	Time domain, mean of standard deviation of body acceleration in Z direction
 	
-tGravityAcc-mean-X - 
+tGravityAcc-mean-X - Numeric - 
 	Time domain, mean of mean gravity acceleration in X direction
 	
-tGravityAcc-mean-Y - 
+tGravityAcc-mean-Y - Numeric - 
 	Time domain, mean of mean gravity acceleration in Y direction
 	
-tGravityAcc-mean-Z - 
+tGravityAcc-mean-Z - Numeric - 
 	Time domain, mean of mean gravity acceleration in Z direction
 	
-tGravityAcc-std-X - 
+tGravityAcc-std-X - Numeric - 
 	Time domain, mean of standard deviation of gravity acceleration in X direction
 	
-tGravityAcc-std-Y - 
+tGravityAcc-std-Y - Numeric - 
 	Time domain, mean of standard deviation of gravity acceleration in Y direction
 	
-tGravityAcc-std-Z - 
+tGravityAcc-std-Z - Numeric - 
 	Time domain, mean of standard deviation of gravity acceleration in Z direction
 	
-tBodyAccJerk-mean-X - 
+tBodyAccJerk-mean-X - Numeric - 
 	Time domain, mean of mean body jerk acceleration in X direction
 	
-tBodyAccJerk-mean-Y - 
+tBodyAccJerk-mean-Y - Numeric - 
 	Time domain, mean of mean body jerk acceleration in Y direction
 	
-tBodyAccJerk-mean-Z - 
+tBodyAccJerk-mean-Z - Numeric - 
 	Time domain, mean of mean body jerk acceleration in Z direction
 	
-tBodyAccJerk-std-X - 
+tBodyAccJerk-std-X - Numeric - 
 	Time domain, mean of standard deviation of body jerk acceleration in X direction
 	
-tBodyAccJerk-std-Y - 
+tBodyAccJerk-std-Y - Numeric - 
 	Time domain, mean of standard deviation of body jerk acceleration in Y direction
 	
-tBodyAccJerk-std-Z - 
+tBodyAccJerk-std-Z - Numeric - 
 	Time domain, mean of standard deviation of body jerk acceleration in Z direction
 	
-tBodyGyro-mean-X - 
+tBodyGyro-mean-X - Numeric - 
 	Time domain, mean of mean gyro in X direction
 	
-tBodyGyro-mean-Y - 
+tBodyGyro-mean-Y - Numeric - 
 	Time domain, mean of mean gyro in Y direction
 	
-tBodyGyro-mean-Z - 
+tBodyGyro-mean-Z - Numeric - 
 	Time domain, mean of mean gyro in Z direction
 	
-tBodyGyro-std-X - 
+tBodyGyro-std-X - Numeric - 
 	Time domain, mean of standard deviation of gyro in X direction
 	
-tBodyGyro-std-Y - 
+tBodyGyro-std-Y - Numeric - 
 	Time domain, mean of standard deviation of gyro in Y direction
 	
-tBodyGyro-std-Z - 
+tBodyGyro-std-Z - Numeric - 
 	Time domain, mean of standard deviation of gyro in Z direction
 	
-tBodyGyroJerk-mean-X - 
+tBodyGyroJerk-mean-X - Numeric - 
 	Time domain, mean of mean jerk gyro in X direction
 	
-tBodyGyroJerk-mean-Y - 
+tBodyGyroJerk-mean-Y - Numeric - 
 	Time domain, mean of mean jerk gyro in Y direction
 	
-tBodyGyroJerk-mean-Z - 
+tBodyGyroJerk-mean-Z - Numeric - 
 	Time domain, mean of mean jerk gyro in Z direction
 	
-tBodyGyroJerk-std-X - 
+tBodyGyroJerk-std-X - Numeric - 
 	Time domain, mean of standard deviation of jerk gyro in X direction
 	
-tBodyGyroJerk-std-Y - 
+tBodyGyroJerk-std-Y - Numeric - 
 	Time domain, mean of standard deviation of jerk gyro in Y direction
 	
-tBodyGyroJerk-std-Z - 
+tBodyGyroJerk-std-Z - Numeric - 
 	Time domain, mean of standard deviation of jerk gyro in Z direction
 	
-tBodyAccMag-mean - 
+tBodyAccMag-mean - Numeric - 
 	Time domain, mean of mean total magnetic acceleration
 	
-tBodyAccMag-std - 
+tBodyAccMag-std - Numeric - 
 	Time domain, mean of standard deviation of total magnetic acceleration
 	
-tGravityAccMag-mean - 
+tGravityAccMag-mean - Numeric - 
 	Time domain, mean of mean total gravity
 	
-tGravityAccMag-std - 
+tGravityAccMag-std - Numeric - 
 	Time domain, mean of standard deviation of total gravity
 	
-tBodyAccJerkMag-mean - 
+tBodyAccJerkMag-mean - Numeric - 
 	Time domain, mean of mean total jerk magnetic acceleration
 	
-tBodyAccJerkMag-std - 
+tBodyAccJerkMag-std - Numeric - 
 	Time domain, mean of standard deviation of total jerk magnetic acceleration
 	
-tBodyGyroMag-mean - 
+tBodyGyroMag-mean - Numeric - 
 	Time domain, mean of mean total gyro
 	
-tBodyGyroMag-std - 
+tBodyGyroMag-std - Numeric - 
 	Time domain, mean of standard deviation of total gyro
 	
-tBodyGyroJerkMag-mean - 
+tBodyGyroJerkMag-mean - Numeric - 
 	Time domain, mean of mean total jerk gyro
 	
-tBodyGyroJerkMag-std - 
+tBodyGyroJerkMag-std - Numeric - 
 	Time domain, mean of standard deviation of total jerk gyro
 	
-fBodyAcc-mean-X - 
+fBodyAcc-mean-X - Numeric - 
 	Frequency domain, mean of mean body acceleration in X direction
 	
-fBodyAcc-mean-Y - 
+fBodyAcc-mean-Y - Numeric - 
 	Frequency domain, mean of mean body acceleration in Y direction
 	
-fBodyAcc-mean-Z - 
+fBodyAcc-mean-Z - Numeric - 
 	Frequency domain, mean of mean body acceleration in Z direction
 	
-fBodyAcc-std-X - 
+fBodyAcc-std-X - Numeric - 
 	Frequency domain, mean of standard deviation of body acceleration in X direction
 	
-fBodyAcc-std-Y - 
+fBodyAcc-std-Y - Numeric - 
 	Frequency domain, mean of standard deviation of body acceleration in Y direction
 	
-fBodyAcc-std-Z - 
+fBodyAcc-std-Z - Numeric - 
 	Frequency domain, mean of standard deviation of body acceleration in Z direction
 	
-fBodyAcc-meanFreq-X - 
+fBodyAcc-meanFreq-X - Numeric - 
 	Frequency domain, mean of mean body frequency in X direction
 	
-fBodyAcc-meanFreq-Y - 
+fBodyAcc-meanFreq-Y - Numeric - 
 	Frequency domain, mean of mean body frequency in Y direction
 	
-fBodyAcc-meanFreq-Z - 
+fBodyAcc-meanFreq-Z - Numeric - 
 	Frequency domain, mean of mean body frequency in Z direction
 	
-fBodyAccJerk-mean-X - 
+fBodyAccJerk-mean-X - Numeric - 
 	Frequency domain, mean of mean body jerk frequency in X direction
 	
-fBodyAccJerk-mean-Y - 
+fBodyAccJerk-mean-Y - Numeric - 
 	Frequency domain, mean of mean body jerk frequency in Y direction
 	
-fBodyAccJerk-mean-Z - 
+fBodyAccJerk-mean-Z - Numeric - 
 	Frequency domain, mean of mean body jerk frequency in Z direction
 	
-fBodyAccJerk-std-X - 
+fBodyAccJerk-std-X - Numeric - 
 	Frequency domain, mean of standard deviation of jerk frequency in X direction
 	
-fBodyAccJerk-std-Y - 
+fBodyAccJerk-std-Y - Numeric - 
 	Frequency domain, mean of standard deviation of jerk frequency in Y direction
 	
-fBodyAccJerk-std-Z - 
+fBodyAccJerk-std-Z - Numeric - 
 	Frequency domain, mean of standard deviation of jerk frequency in Z direction
 	
-fBodyAccJerk-meanFreq-X - 
+fBodyAccJerk-meanFreq-X - Numeric - 
 	Frequency domain, mean of jerk body mean frequency in X direction
 	
-fBodyAccJerk-meanFreq-Y - 
+fBodyAccJerk-meanFreq-Y - Numeric - 
 	Frequency domain, mean of jerk body mean frequency in Y direction
 	
-fBodyAccJerk-meanFreq-Z - 
+fBodyAccJerk-meanFreq-Z - Numeric - 
 	Frequency domain, mean of jerk body mean frequency in Z direction
 	
-fBodyGyro-mean-X - 
+fBodyGyro-mean-X - Numeric - 
 	Frequency domain, mean of mean body gyro in X direction
 	
-fBodyGyro-mean-Y - 
+fBodyGyro-mean-Y - Numeric - 
 	Frequency domain, mean of mean body gyro in Y direction
 	
-fBodyGyro-mean-Z - 
+fBodyGyro-mean-Z - Numeric - 
 	Frequency domain, mean of mean body gyro in Z direction
 	
-fBodyGyro-std-X - 
+fBodyGyro-std-X - Numeric - 
 	Frequency domain, mean of standard deviation of body gyro in X direction
 	
-fBodyGyro-std-Y - 
+fBodyGyro-std-Y - Numeric - 
 	Frequency domain, mean of standard deviation of body gyro in Y direction
 	
-fBodyGyro-std-Z - 
+fBodyGyro-std-Z - Numeric - 
 	Frequency domain, mean of standard deviation of body gyro in Z direction
 	
-fBodyGyro-meanFreq-X - 
+fBodyGyro-meanFreq-X - Numeric - 
 	Frequency domain, mean of body gyro mean frequency in X direction
 	
-fBodyGyro-meanFreq-Y - 
+fBodyGyro-meanFreq-Y - Numeric - 
 	Frequency domain, mean of body gyro mean frequency in Y direction
 	
-fBodyGyro-meanFreq-Z - 
+fBodyGyro-meanFreq-Z - Numeric - 
 	Frequency domain, mean of body gyro mean frequency in Z direction
 	
-fBodyAccMag-mean - 
+fBodyAccMag-mean - Numeric - 
 	Frequency domain, mean of mean body acceleration magnitude
 	
-fBodyAccMag-std - 
+fBodyAccMag-std - Numeric - 
 	Frequency domain, mean of standard deviation of body accelertion magnitude
 	
-fBodyAccMag-meanFreq - 
+fBodyAccMag-meanFreq - Numeric - 
 	Frequency domain, mean of mean fequency of body acceleration magnitude
 
-fBodyBodyAccJerkMag-mean - 
+fBodyBodyAccJerkMag-mean - Numeric - 
 	Frequency domain, mean of mean body jerk acceleration magnitude
 	
-fBodyBodyAccJerkMag-std - 
+fBodyBodyAccJerkMag-std - Numeric - 
 	Frequency domain, mean of standard deviation of body jerk accelertion magnitude
 	
-fBodyBodyAccJerkMag-meanFreq - 
+fBodyBodyAccJerkMag-meanFreq - Numeric - 
 	Frequency domain, mean of mean fequency of body jerk acceleration magnitude
 	
-fBodyBodyGyroMag-mean - 
+fBodyBodyGyroMag-mean - Numeric - 
 	Frequency domain, mean of mean body gyro magnitude
 	
-fBodyBodyGyroMag-std - 
+fBodyBodyGyroMag-std - Numeric - 
 	Frequency domain, mean of standard deviation of body gyro magnitude
 	
-fBodyBodyGyroMag-meanFreq - 
+fBodyBodyGyroMag-meanFreq - Numeric - 
 	Frequency domain, mean of mean frequency of body gyro magnitude
 	
-fBodyBodyGyroJerkMag-mean - 
+fBodyBodyGyroJerkMag-mean - Numeric - 
 	Frequency domain, mean of mean body jerk gyro magnitude
 	
-fBodyBodyGyroJerkMag-std - 
+fBodyBodyGyroJerkMag-std - Numeric - 
 	Frequency domain, mean of standard deviation of body jerk gyro magnitude
 	
-fBodyBodyGyroJerkMag-meanFreq - 
+fBodyBodyGyroJerkMag-meanFreq - Numeric - 
 	Frequency domain, mean of mean frequency of body jerk gyro magnitude
