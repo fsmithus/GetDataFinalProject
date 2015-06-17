@@ -1,16 +1,16 @@
-Date Dictionary - Getting and Cleaning Data Final Project - 06/17/2015 - Fred Smith
+#Date Dictionary - Getting and Cleaning Data Final Project - 06/17/2015 - Fred Smith
 
 subject
 	Integer - subject identifier in the range 1:30 (a person)
 	
 activity
 	One of the following:
-	WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
+	*WALKING
+	*WALKING_UPSTAIRS
+	*WALKING_DOWNSTAIRS
+	*SITTING
+	*STANDING
+	*LAYING
 
 The remaining variables are averages of original dataset (with same units) and are listed below.
 

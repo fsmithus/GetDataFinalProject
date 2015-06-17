@@ -23,3 +23,13 @@ contain raw gyro and accelerometer data.  Insufficient information was provided 
 pre-processed into the feature data.  There are references to sliding windows and low-pass filters but
 since there are no time stamps (explicit nor implied) some of the data has been lost.  For this project
 I have taken on faith that the raw data was traslated into the feature data appropriately.
+
+# Running the Analysis
+The script run_analysis.R massages the original data into the tidy averaged dataset.  It must be run with in
+the working directory which contains the root of the dataset folder structure where the original ZIP file was
+uncompressed.  That is, "UCI HAR Dataset" must be a folder in the R environment working directory.
+
+Once the analysis is run, it can be read from the resulting file with the following command:
+'''R
+read.table("analysis_out.txt",header=TRUE)
+'''
