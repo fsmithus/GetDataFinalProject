@@ -1,9 +1,9 @@
 #Date Dictionary - Getting and Cleaning Data Final Project - 06/17/2015 - Fred Smith
 
-subject
+subject - 
 	Integer - subject identifier in the range 1:30 (a person)
 	
-activity
+activity - 
 One of the following:
 * WALKING
 * WALKING_UPSTAIRS
